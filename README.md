@@ -1,9 +1,14 @@
-# Colab on NSF Cloud Computing Testbed
+## Deep Neural Nets: 33 years ago and 33 years from now
 
-This experiment is for connecting Google Colab to a server running on NSF-supported cloud computing infrastructure. 
+_Fraida Fund_
 
-This allows you to run experiments requiring bare metal access, storage, memory, GPU and compute that exceeds the abilities of Colab's hosted runtime, but with Colab's familiar interface (and notebooks stored in your Google Drive). It also allows you to easily go back and forth between the convenience of Colab's hosted runtime and Chameleon or CloudLab's greater capabilities, as you develop your experiment.
+---
 
-To run on CloudLab: Use [this CloudLab profile](https://www.cloudlab.us/p/cl-education/colab)
+**Attribution**: This sequence of notebooks is adapted from the ICLR 2022 blog post ["Deep Neural Nets: 33 years ago and 33 years from now"](https://iclr-blog-track.github.io/2022/03/26/lecun1989/)  by Andrej Karpathy, and the associated [Github repository](https://github.com/karpathy/lecun1989-repro). 
 
-To run on Chameleon: Use [this Trovi artifact](https://chameleoncloud.org/experiment/share/27d7846a-09b3-440c-ba0d-b34896d7796c)
+---
+
+
+In this sequence of experiments, you will reproduce a result from machine learning from 1989 - a paper that is possibly the earliest real-world application of a neural network trained end-to-end with backpropagation. (In earlier neural networks, some weights were actually hand-tuned!) You'll go a few steps further, though - after reproducing the results of the original paper, you'll get to use some modern 'tricks' to try and improve the performance of the model without changing its underlying infrastructure (i.e. no change in inference time!)
+
+Procedure: First, you'll run the `reserve.ipynb` notebook to bring up a resource on Chameleon and configure it with the software needed to run this experiment. At the end of this notebook, you'll set up an SSH tunnel between your local device and a Jupyter notebook server that you just created on your Chameleon resource. Then, you'll open the notebook server in your local browser and run the sequence of notebooks you see there.
