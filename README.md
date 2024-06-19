@@ -19,5 +19,5 @@ You can run this experiment on Google Colab: <a target="_blank" href="https://co
 
 Or, you can use the Chameleon testbed: 
 <a target="_blank" href="https://chameleoncloud.org/experiment/share/c0b5a325-b42c-4d44-bbb1-f2d9be7911d4">
-  <img src='https://d31tc1b63hlzap.cloudfront.net/b0qmdz%2Fpreview%2F58757570%2Fmain_large.png' alt="Run on Chameleon"/>
+  <img src='https://svgshare.com/i/17PD.svg' alt="Run on Chameleon"/>
 </a> First, you'll run the `reserve.ipynb` notebook to bring up a resource on Chameleon and configure it with the software needed to run this experiment. At the end of this notebook, you'll set up an SSH tunnel between your local device and a Jupyter notebook server that you just created on your Chameleon resource. Then, you'll open the notebook server in your local browser and run the sequence of notebooks you see there.
